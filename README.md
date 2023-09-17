@@ -1,6 +1,6 @@
 # Prompt Dictionary
 
-This is my first full-stack Next.js 13.4 app I created by following the amazing tutorial by JavaScript Mastery [Next.js 13 Full Course](https://www.youtube.com/watch?v=wm5gMKuwSYk&t=11212s)
+This is my first full-stack Next.js 13.4 app I created by following the amazing tutorial by JavaScript Mastery [Next.js 13 Full Course](https://www.youtube.com/watch?v=wm5gMKuwSYk)
 
 Deployed at [https://agrpaavan-promptdict.vercel.app](https://agrpaavan-promptdict.vercel.app)
 
