@@ -59,7 +59,6 @@ const Feed = () => {
       const data = await response.json();
 
       setPosts(data);
-      setSearchedResults(data);
     };
 
     fetchPosts();
@@ -78,7 +77,10 @@ const Feed = () => {
         />
       </form>
 
-      <PromptCardList data={searchedResults} handleTagClick={handleTagClick} />
+      <PromptCardList
+        data={searchText ? searchedResults : posts}
+        handleTagClick={handleTagClick}
+      />
     </section>
   );
 };
